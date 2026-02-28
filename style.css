@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+:root {
+    --md-primary: #6750A4;
+    --md-on-primary: #FFFFFF;
+    --md-primary-container: #EADDFF;
+    --md-on-primary-containeer: #4F378B;
+    
+    --md-secondary: #625B71;
+    --md-on-secondary: #FFFFFF;
+    --md-secondary-container: #E8DEF8;
+    --md-on-secondary-container: #4A4458;
+
+    --md-tertiary: #7D5260;
+    --md-on-tertiary: #FFFFFF;
+    --md-tertiary-container: #FFD8E4;
+    --md-on-tertiary-container: #633B48;
+
+    --md-error: #B3261E;
+    --md-on-error: #FFFFFF;
+    --md-error-container: #F9DEDC;
+    --md-on-error-container: #8C1D18;
+
+    --md-surface: #FEF7FF;
+    --md-on-surface: #1D1B20;
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height: normal;
+    background-color: var(--md-surface);
+    color: var(--md-on-surface);
+
+}
+
+header {
+    margin: 2px;
+    background-color: var(--md-secondary);
+    color: var(--md-on-secondary);
+}
