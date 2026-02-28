@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a>Inserir</a></li>
+                <li><a>Listar</a></li>
+                <li><a>Alterar</a></li>
+                <li><a>Excluit</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inserir" class="card">
+        <h3>Inserir Novo Funcionário</h3>
+        <form id="forminsert">
+            <input type="text" id="name" placeholder="Nome" required>
+            <input type="number" id="salary" placeholder="Salário" required>
+            <input type="number" id="age" placeholder="Idade" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </section>
+
+    <section id="listar" class="card">
+        <h3>Lista de funcionários</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Salário</th>
+                    <th>Idade</th>
+                </tr>
+            </thead>
+        </table>
+        <div class="pagination"><button></button><span id="pageinfo"></span><button></button></div>
+    </section>
+
+    <section id="alterar" class="card">
+        <h3>Alterar funcionário</h3>
+        <form id="formalter">
+            <input type="number" id="alterID" placeholder="ID">
+            <input type="text" id="altername" placeholder="Nome">
+            <input type="number" id="alterslary" placeholder="Salário">
+            <input type="number" id="alterage" placeholder="Idade">
+            <button type="submit">Atualizar</button>
+        </form>
+    </section>
+
+    <section id="excluir" class="card">
+        <h3>Excluir funcionário</h3>
+        <input type="number" id="deleteID" placeholder="ID de remoção">
+        <button type="submit">Excluir</button>
+    </section>
+
+</body>
+</html>
